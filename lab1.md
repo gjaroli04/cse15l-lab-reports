@@ -16,7 +16,7 @@ For this Lab Report, I will be using the “lecture1” repository to show off t
 * There was no error in the output
 
 3.An example of using “cd” with a path to a file as an argument
-![Image](cd_ex3.png)	
+![Image](cd_ex2 (2).png)	
 * Working directory: In this case, the working directory was messages which is a directory inside of lecture1. 
 * The output was: “bash: cd: /home/lecture1.Hello.java: Not a directory,” and I got that output because we were trying to making the current directory a file which 
   is not possible.
