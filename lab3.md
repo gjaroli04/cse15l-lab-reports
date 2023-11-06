@@ -81,7 +81,7 @@ Output:
 Explanation: The first example filters out files less than 5 KB and the second example filters out files greater than 50 KB. This is great for filtering file ranges and excludes files that are too small or big for usage. The uses cases of -size include finding large files on your system, finding empty files, and just filtering through files for optimized usage. 
 <br>
 
-**Command 2: - type**
+**Command 2: - type** <br>
 Example 1 - Find all directories in the current directory:
 Command:
 ```
