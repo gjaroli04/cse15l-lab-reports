@@ -58,12 +58,15 @@ Screenshot 2 (Adding How Are you): <br>
 * Relevant fields: 'messages' which is a list with an element "1.Hello" from the previous request, and the 'sequence' is 2 due to adding "1.Hello".
 * How the values change: The messages list will have two elements: "1. Hello" and "2. How are you", and sequence will increment to 3.
 
+**Part 2** <br>
+* The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer): <br>
+![Image](PrivateKey.png)	
 
+* The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6): <br>
+![Image](PublicKey.png)	
 
-
-
-
-
+* A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+![Image](TerminalInteraction.png)	
 
 
 
