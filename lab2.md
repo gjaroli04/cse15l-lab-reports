@@ -45,10 +45,10 @@ class StringServer {
 Screenshot 1 (Adding Hello):
 ![Image](AddingHello.png)	
 
-Method called: handleRequest(URI url) in the Handler class is called.
-Relevant arguments: "URI" object representing the URL with path "/add-message" and query "s=Hello".
-Relevant fields: 'messages' which is an empty list before the code is ran, and the 'sequence' is 1.
-How the values change: The 'messages' list will have one element added which would be taken from the query: "1.Hello" and "sequece" will increment to 2.
+* Method called: handleRequest(URI url) in the Handler class is called.
+* Relevant arguments: "URI" object representing the URL with path "/add-message" and query "s=Hello".
+* Relevant fields: 'messages' which is an empty list before the code is ran, and the 'sequence' is 1.
+* How the values change: The 'messages' list will have one element added which would be taken from the query: "1.Hello" and "sequece" will increment to 2.
 
 
 
