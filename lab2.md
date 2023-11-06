@@ -1,7 +1,7 @@
 # Lab Report 2
 ***
 
-**Part 1**
+**Part 1** <br>
 
 My code for StringServer.java:
 ```
@@ -42,7 +42,7 @@ class StringServer {
     }
 }
 ```
-Screenshot 1 (Adding Hello):
+Screenshot 1 (Adding Hello): <br>
 ![Image](AddingHello.png)	
 
 * Method called: handleRequest(URI url) in the Handler class is called.
@@ -50,7 +50,7 @@ Screenshot 1 (Adding Hello):
 * Relevant fields: 'messages' which is an empty list before the code is ran, and the 'sequence' is 1.
 * How the values change: The 'messages' list will have one element added which would be taken from the query: "1.Hello" and "sequece" will increment to 2.
 
-Screenshit 2 (Adding How Are you):
+Screenshot 2 (Adding How Are you): <br>
 ![Image](AddingHowAreYou.png)	
 
 * Method called: handleRequest(URI url) in the Handler class is called.
