@@ -46,13 +46,17 @@ Screenshot 1 (Adding Hello):
 ![Image](AddingHello.png)	
 
 * Method called: handleRequest(URI url) in the Handler class is called.
-* Relevant arguments: "URI" object representing the URL with path "/add-message" and query "s=Hello".
+* Relevant arguments: "URI" object representing the URL (http://localhost:4005/add-message?s=Hello) with path "/add-message" and query "s=Hello".
 * Relevant fields: 'messages' which is an empty list before the code is ran, and the 'sequence' is 1.
 * How the values change: The 'messages' list will have one element added which would be taken from the query: "1.Hello" and "sequece" will increment to 2.
 
+Screenshit 2 (Adding How Are you):
+![Image](AddingHowAreYou.png)	
 
-
-
+* Method called: handleRequest(URI url) in the Handler class is called.
+* Relevant arguments: "URI" object representing the URL (http://localhost:4005/add-message?s=How%20are%20you) with path "/add-message" and query "s=How are you".
+* Relevant fields: 'messages' which is a list with an element "1.Hello" from the previous request, and the 'sequence' is 2 due to adding "1.Hello".
+* How the values change: The messages list will have two elements: "1. Hello" and "2. How are you", and sequence will increment to 3.
 
 
 
