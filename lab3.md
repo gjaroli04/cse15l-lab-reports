@@ -48,7 +48,7 @@ public void testReversedNotFailureInducing() {
  
 **Part 2: ** <br>
 
-**Command 1: -size **
+Command 1: -size
 
 Example 1 - Find all files less than 2 KB in technical.
 Command: 
