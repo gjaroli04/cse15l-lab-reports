@@ -68,6 +68,19 @@ Screenshot 2 (Adding How Are you): <br>
 * A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](TerminalInteraction.png)	
 
+**Part 3** <br>
+
+During Week 2, I gained experience in establishing an SSH connection to a remote server using my individual account. Furthermore, I explored the fundamentals of web servers by running a basic Java web server on my own machine. This allowed me to understand concepts such as ports, accessing the server via a web browser, and testing various URL paths and queries to observe the server's responses. Additionally, I collaborated with my peers by connecting by loading their server on my local machine and experimented with testing various URL paths and queries. <br>
+
+In Week 3, I gained experience by running a server on my local computer accessible through the web browser at http://localhost:4000 (where 4000 was my chosen port number). Additionally, I set up convenient access to SSH keys using the 'scp' and 'mkdir' commands for the first time. These two labs offered a range of new insights. Running a server on my local machine was a new experience for me. This allowed me to compare the process of running a server on a remote server and my local machine. I also got a deeper understanding of URL paths and queries and how the server responds to various requests. Furthermore, I learned the functions of the 'scp' command, which ensures secure file copying, and the 'mkdir' command, which enables us to create new directions and structuring within the file system.
+
+
+
+
+
+
+
+
 
 
 
