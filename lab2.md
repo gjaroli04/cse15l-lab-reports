@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Handler implements URLHandler {
+
     List<String> messages = new ArrayList<>();
     int sequence = 1;
 
