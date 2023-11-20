@@ -50,6 +50,11 @@ Explanation: The bug in the original reversed method is that it modifies the arr
  
 **Part 2:** <br>
 
+Source: <br>
+URL: https://man7.org/linux/man-pages/man1/find.1.html <br>
+MLA Citation: Find(1) - Linux Manual Page, man7.org/linux/man-pages/man1/find.1.html. Accessed 1 Nov 5. 2023. <br>
+I found this source by simply searching "Command line options for fine", and this was one of the first things that came up and seemed informative, so I decided to use this source.
+
 Command 1: -size
 
 Example 1 - Find all files less than 2 KB in technical.
