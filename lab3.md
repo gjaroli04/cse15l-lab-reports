@@ -25,7 +25,7 @@ public void testReversedNotFailureInducing() {
 * The symptom, as the output of running the tests:
 ![Image](Symptom.png)	
 
-* The bug, as the before-and-after code change required to fix it:
+* The bug, as the before-and-after code change required to fix it: <br>
 Before:
 ```
 static int[] reversed(int[] arr) {
