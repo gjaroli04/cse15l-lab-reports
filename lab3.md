@@ -35,6 +35,7 @@ public void testReversedNotFailureInducing() {
         }
         return arr;
       }
+      ```
     - After:
       ```
         static int[] reversed(int[] arr) {
@@ -44,6 +45,7 @@ public void testReversedNotFailureInducing() {
         }
         return newArray;
         }
+      ```
     - Explanation: The bug in the original reversed method is that it modifies the arr array itself, which should not be changed. To fix it, the code I implemented assigns the reversed elements to the newArray and returns the newArray.
  
 **Part 2:** <br>
