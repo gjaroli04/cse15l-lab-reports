@@ -26,7 +26,7 @@ public void testReversedNotFailureInducing() {
 ![Image](Symptom.png)	
 
 * The bug, as the before-and-after code change required to fix it:
-- Before:
+Before:
 ```
 static int[] reversed(int[] arr) {
 int[] newArray = new int[arr.length];
@@ -36,7 +36,7 @@ for(int i = 0; i < arr.length; i += 1) {
 return arr;
 }
 ```
-- After:
+After:
 ```
 static int[] reversed(int[] arr) {
 int[] newArray = new int[arr.length];
@@ -46,7 +46,7 @@ int[] newArray = new int[arr.length];
         return newArray;
         }
 ```
-- Explanation: The bug in the original reversed method is that it modifies the arr array itself, which should not be changed. To fix it, the code I implemented assigns the reversed elements to the newArray and returns the newArray.
+Explanation: The bug in the original reversed method is that it modifies the arr array itself, which should not be changed. To fix it, the code I implemented assigns the reversed elements to the newArray and returns the newArray.
  
 **Part 2:** <br>
 
