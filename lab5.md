@@ -194,3 +194,71 @@ public static List<Integer> generatePrimes(int start, int end) {
 
 With this modification, the prime numbers are dynamically added to the primesList, and the method returns a List<Integer>. This approach resolves the ArrayIndexOutOfBoundsException issue. There were some changes made to the main method as well by using "List<Integer> primeNumbers = generatePrimes(startRange, endRange);" instead of "int[] primeNumbers = generatePrimes(startRange, endRange);" so we could use Dyanmic ArrayList there as well. Additionally, I also added two more import statements to allow the use of ArrayLists.
 
+**Updated PrimeNumberGenerator.java code after bug fixes:**
+```
+import java.util.List;
+import java.util.ArrayList;
+
+public class PrimeNumberGenerator {
+    public static void main(String[] args) {
+        int startRange = 0;
+        int endRange = 50;
+
+        List<Integer> primeNumbers = generatePrimes(startRange, endRange);
+        for (int prime : primeNumbers) {
+            System.out.print(prime + "\n");
+        }
+    }
+
+    public static List<Integer> generatePrimes(int start, int end) {
+        List<Integer> primesList = new ArrayList<>();
+
+        for (int num = start; num <= end; num++) {
+            if (isPrime(num)) {
+                primesList.add(num);
+            }
+        }
+
+        return primesList;
+    }
+
+    public static boolean isPrime(int number) {
+        if (number < 2) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+```
+
+This caused actual_prime_numbers.txt to have the same output as expected_prime_numbers.txt. <br> **actual_prime_numbers.txt:**
+```
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+```
+
+---
+
+## Part 2
+
+I discovered an interesting aspect of my learning journey: utilizing JDB for debugging. I find this tool incredibly beneficial as it offers an interactive command-line interface for effective code debugging. The tool's essential functionalities, such as establishing breakpoints and navigating through code step by step, present valuable applications. These features will prove to be invaluable in my future coding endeavors, providing me with a powerful means to pinpoint the origins of bugs or unexpected behavior in my code. This capability will undoubtedly be advantageous, enhancing my ability to troubleshoot and refine my code in my near future.
