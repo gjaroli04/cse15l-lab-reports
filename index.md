@@ -5,3 +5,5 @@
 [Lab Report 3](https://gjaroli04.github.io/cse15l-lab-reports/lab11.html) <br>
 
 [Lab Report 4](https://gjaroli04.github.io/cse15l-lab-reports/lab4.html) <br>
+
+[Lab Report 5](https://gjaroli04.github.io/cse15l-lab-reports/lab5.html) <br>
