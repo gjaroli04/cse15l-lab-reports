@@ -172,6 +172,8 @@ javac PrimeNumberGenerator.java
 java PrimeNumberGenerator > actual_prime_numbers.txt
 ```
 
+This triggered the bugs because the bugs existed in my "PrimeNumberGenerator.java" file, and running it caused the ArrayIndexOutOfBoundsException because there was faulty code in the file.
+
 **4. A description of what to edit to fix the bug**
 
 The bug was fixed by modifying the generatePrimes method to use an ArrayList for storage of prime numbers. The ArrayList allows elements to be added, eliminating the need to specify a fixed size upfront. 
