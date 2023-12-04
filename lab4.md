@@ -9,7 +9,7 @@ Keys Pressed:
 <up><enter>
 ssh cs15lfa23gf@ieng6.ucsd.edu 
 ```
-The command was the last command I used to log in, so I had to just log in again bu doing up and then enter.
+The command was the last command I used to log in, so I had to just log in again by doing up and then enter.
 
 Step 5: <br>
 ![image](https://github.com/gjaroli04/cse15l-lab-reports/assets/146787965/024e946f-6434-43af-a588-61b6e1a1cc46)
@@ -20,7 +20,7 @@ Keys Pressed:
 git clone git@github.com:gjaroli04/lab7.git
 ```
 
-I clicked the copy button on githib to copy the repository, then typed in 'git clone' then pasted the repository link using ctrl-v.
+I clicked the copy button on GitHub to copy the repository, then typed in 'git clone' then pasted the repository link using 'ctrl-v'.
 
 Step 6: <br>
 ![Image](step6.png)	
