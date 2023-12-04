@@ -12,14 +12,15 @@ ssh cs15lfa23gf@ieng6.ucsd.edu
 The command was the last command I used to log in, so I had to just log in again bu doing up and then enter.
 
 Step 5: <br>
-![Image](step5.png)	
+![image](https://github.com/gjaroli04/cse15l-lab-reports/assets/146787965/024e946f-6434-43af-a588-61b6e1a1cc46)
 
 Keys Pressed:
 ```
-<up><enter>
-git clone https://github.com/gjaroli04/lab7.git
+<click><ctrl-v><enter>
+git clone git@github.com:gjaroli04/lab7.git
 ```
-The command was just above in my command history so I just went up and cloned this directory
+
+I clicked the copy button on githib to copy the repository, then typed in 'git clone' then pasted the repository link using ctrl-v.
 
 Step 6: <br>
 ![Image](step6.png)	
@@ -35,11 +36,11 @@ Step 7: <br>
 ![Image](step7.png)	
 
 ```
-<enter><i><click><esc><enter>
+<enter><?index1><enter><e><r><2><esc><:wq><enter>
 vim ListExamples.java
 ```
 
-After typing vim ListExamples.java, I pressed enter and then went to insert mode by pressing 'i' and then clicking to index1 and changed it to index2, and then I pressed 'esc' and typed ':wq' and then "enter" to save changes
+After typing vim ListExamples.java, I pressed "enter" and then I typed in "?index1" which took me to the last 'index1' in the file, which happens to be the one that we are supposed to fix. Then I clicked enter to go to that spot and then pressed "e" to go to the end of "index1" and used 'r2' to replace the 1 with 2 and then I pressed "esc" and then typed in ":wq" and then pressed "enter" to save changes. I did this to make it so that I had the least amount of key presses that I could think of. 
 
 
 Step 8: <br>
@@ -52,11 +53,13 @@ I pressed up twice to get the command that ran tests.
 
 Step 9: <br>
 ![Image](step9.png)	
+
 ```
-<enter><enter><enter>
+<git><add><tab><enter> <ctrl-c><ctrl-v><enter> <git><push><tab><main><enter>
 git add ListExamples.java
 git commit -m "Fix failing test by changing index1 to index2"
 git push origin main
 ```
 
-I typed out these commands and pressed enter after this.
+To better optimize this, I first typed out "git add" and then pressed "tab" which provided me the filename and then I pressed "enter" to execute the first command. Next, I had this command written in a document, and I pressed "ctrl-c" to copy it from there and then pasted it using "ctrl-v" and then pressed "enter" to excecute the command. Next, I typed out "git push" and then pressed "tab" which filled out "origin" and then I typed out "main" and then pressed "enter" to execute the command. 
+
